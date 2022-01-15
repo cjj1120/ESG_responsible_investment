@@ -29,11 +29,11 @@
 
     **3.5** If you downloaded a new package, push the new package into Github as well so we can download the new package as well. Generate the list of packages by running 
     
-    ```pip3 freeze > requirements.txt```
+    ```pip3 freeze > work/requirements.txt```
 
     **3.6** To download the packages from requirements.txt, run 
     
-    ```pip install -r requirements.txt```
+    ```pip install -r work/requirements.txt```
 
     [ I have pre-installed some packages for you to run ```jupyter lab``` or ```jupyter notebook``` ]
 
