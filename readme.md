@@ -47,12 +47,18 @@ We practice good file organization. We can be [hardcore](https://www.kdnuggets.c
 
 ```
 ESG_responsible_investing
-|___ data              # Stores the data
-|___ src               # Runs scripts if needed
-|___ notebook          # For experimentation and rapid prototyping
-|___ requirements.txt
-|___ ignore            # a miscellaneous folder for files to ignore
-|___ .gitignore        # List of files to ignore especially credentials!
+|___ Work
+     |___ data              # Stores the data
+     |    |___ raw          # Raw data from a source. No data cleaning here
+     |    |___ transform    # Tables that are joined, cleaned, normalized, denormalized etc. Most of your work should occur here
+     |    |___ report       # These are tables that are used for Visualization. Very little to no transformation would occur here
+     |___ src               # Runs scripts if needed
+     |___ notebook          # For experimentation and rapid prototyping
+          |___ Analysis     # Data exploration or ML modeling occurs here
+          |___ ETL          # To transform data or create new tables. Little
+     |___ requirements.txt
+     |___ ignore            # a miscellaneous folder for files to ignore
+     |___ .gitignore        # List of files to ignore especially credentials!
 ```
 The folders and directories may get messy from time to time so some clean up may be needed a long the way. The directory is likely to change over time as the project progresses
 
