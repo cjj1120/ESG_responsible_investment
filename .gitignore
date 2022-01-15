@@ -4,8 +4,10 @@ etc
 include
 lib
 share
+Scripts
 pyvenv.cfg
 ignore
+
 
 # Files
 pyvenv.cfg
