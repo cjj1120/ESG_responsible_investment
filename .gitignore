@@ -1,0 +1,11 @@
+# Folders
+bin
+etc
+include
+lib
+share
+pyvenv.cfg
+ignore
+
+# Files
+pyvenv.cfg
