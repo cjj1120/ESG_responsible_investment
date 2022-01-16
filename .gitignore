@@ -11,3 +11,5 @@ ignore
 
 # Files
 pyvenv.cfg
+config.ini
+.ipynb_checkpoints
