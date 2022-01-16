@@ -61,6 +61,10 @@ ESG_responsible_investing
 ```
 The folders and directories may get messy from time to time so some clean up may be needed a long the way. The directory is likely to change over time as the project progresses
 
+## File Naming
+
+For files generated especially data files, do version them with a date. This is to help with versioning and tracking
+
 ## Table Naming Convention
 This is still work in progress but it would be something like this
 
