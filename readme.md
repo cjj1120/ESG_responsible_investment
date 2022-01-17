@@ -79,3 +79,8 @@ These are tables are designed for analysis. They are denormalize and are usually
 
 * *dim* prefix are information pertaining a something i.e 
 * *fact* prefix are information that records a certain historical event such as transactional events
+
+** Team Members **
+Chan Jion Jiet
+Tan Jamie
+Jerome Yue
